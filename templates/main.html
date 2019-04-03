@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Flask CSS Test Project{% endblock %}
+
+{% block head %}
+    {{ super() }}
+    <style type="text/css">
+        /* some styles */
+    </style>
+{% endblock %}
+
+{% block content %}
+<header>
+    <h1>insert css link and selector</h1>
+    <form action="/temp">
+        <label>link:&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" name="css-text"><br>
+        <label>selector:</label><input type="text" name="selector"><br>
+
+        <input type="submit">
+    </form>
+</header>
+{% endblock %}

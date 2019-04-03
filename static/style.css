@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+    background-color: black;
+    font-size: 15px;
+}
+
+header, #footer {
+    text-align: center;
+    background-color: white;
+}
+
+header h1 {
+    padding: 40px;
+}
+
+span {
+    display: block;
+}
+
+#footer {
+    padding-top: 20px;
+}
+
+input {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+div.common {
+    float: left;
+    position: relative;
+    left: 10%;
+    top: 50px;
+    width: 45%;
+    color: lightblue;
+}
+
+div.media {
+    float: left;
+    position: relative;
+    left: 10%;
+    top: 50px;
+    width: 45%;
+    color: lightblue;
+}
+
+.cssText {
+    padding-left: 20px;
+}
+
+.selector {
+    color: #CE5897;
+}
+
+.media .selector {
+    color: red;
+}
+
+.media .s.selector {
+    padding-left: 20px;
+    color: #CE5897;
+}
+.media .cssText {
+    padding-left: 40px;
+    color: lightblue;
+}
