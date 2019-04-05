@@ -1,6 +1,6 @@
 from flask import Flask, url_for, request, render_template
 from flask import Markup
-import parser
+import parser_css
 
 app = Flask(__name__)
 
@@ -17,7 +17,7 @@ def temp():
     text = ''
 
     try:
-        css_parser = parser.CSSParser(link)
+        css_parser = parser_css.CSSParser(link)
         styles = css_parser.search_selector(selector)
 
         text += '<div class="common">'

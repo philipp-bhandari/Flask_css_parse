@@ -8,7 +8,7 @@ cssutils.log.setLevel(logging.CRITICAL)
 class CSSParser:
     def __init__(self, path):
 
-        with open('file.css', 'w') as file:
+        with open('file.css', 'w', encoding='utf-8') as file:
             text = urllib.request.urlopen(path).read().decode('utf-8')
             file.write(text)
         path = 'file.css'
