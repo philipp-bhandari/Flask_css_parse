@@ -1,3 +1,2 @@
-# FlaskProject
-parse css urls with selectors
-# Flask_css_parse
+Маленькое приложение на Flask которое парсит css-файл по ссылке. Показывает все правила css и media для селектора.
+Создан чтобы быстрее ковыряться в css-файлах :)
